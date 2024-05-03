@@ -16,14 +16,14 @@ meaning you can expect Open-iAPS to behave the same way AndroidAPS does generall
 * Working remote bolus (for caregivers, not working at the moment in Open-iAPS)
 * A built-in learning program
 </details>
-
+---
 <details>
 <summary><b>Benefits of Open-iAPS</b></summary>
 
 * Open-iAPS works on your iPhone and Apple Watch
 * Open-iAPS has dynamic CR support
 </details>
-
+---
 <details>
   <summary><b>Should I switch from AndroidAPS to Open-iAPS?</b></summary>
 - If you have been successful with AndroidAPS but prefer the Apple ecosystem, you can easily transition to Open-iAPS. - If you've struggled to get stable BG with AndroidAPS, you may have the same issues with Open-iAPS.
