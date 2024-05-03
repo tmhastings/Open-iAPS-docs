@@ -112,7 +112,6 @@ Loop is carb-centric. Many Loop users have been instructed to enter carbs, inclu
 The Open-iAPS algorithm does not consider future carbs. What does this mean? The algorithm considers many factors, adds guardrails, and then acts by setting a temporary basal, administering a bolus (SMB), or both. Future carbs are not considered. The algorithm does not care about any future carbs you might have entered.
 
 **Wait, what!? You have to consider carbs, right? Why else would I add them?**
-
 *Open-iAPS considers carbs only once absorbed and part of Carbs On Board (COB).*
 
 **So what's the mealtime strategy then?**
@@ -130,7 +129,6 @@ Here's the recommendation:
 7. If you think Open-iAPS is not giving enough or too much insulin, you should look at your settings, including MAX IOB and all SMB-related settings.
 
 **Does everyone do it like that?**
-
 *No.*
 
 **What are the alternatives?**
@@ -139,7 +137,6 @@ Here's the recommendation:
 - *Some Open-iAPS users do a manual pre-bolus and skip entering carbs. Open-iAPS will predict a low BG until the meal kicks in and BG begins rising. If the pre-bolus is insufficient, Open-iAPS will give more insulin based on settings. Yes, even without entering any carbs. This approach will also result in a temporary high that is shorter than the completely unattended approach.*
 
 **What do most people do?**
-
 *Most Open-iAPS users take a bit of all these approaches. They have an apple without entering anything into the app. Then, they pre-bolus for lunch because it was high carb. Then, they use the calculator for dinner. This is all OK, and it comes down to the variation you accept for your BG.*
 
 ## Coming from commercial closed-loop systems
@@ -154,9 +151,9 @@ Are you using a commercial closed-loop system like Insulet's Omnipod 5, Tandem's
 If you have any questions, feel free to reach out on Discord or Facebook. But please read the docs first :)
 
 ### Watch the Loop N Learn Videos on Open-iAPS:
-* [Open Mic: Open-iAPS with Magnus Reintz & Theresa Hastings, 8.3.2023](https://youtu.be/Jubfy-s9URI?si=cKOMb2mcHzBJdPIb)
-* [Open-iAPS with Magnus Reintz & Theresa Hastings: Starting Open-iAPS, 8.17.2023](https://youtu.be/9I1nuHbcUHo?si=wlRurW3Qh_60ss2d)
-* [Open-iAPS Q&A with Magnus Reintz, Tom Barrows, Jonas Hummelstrand & Theresa Hastings, 30 August 2023](https://youtu.be/Li3AKjSrdPw?si=WwLctkAGjVsbDLNs)
+- [Open Mic: Open-iAPS with Magnus Reintz & Theresa Hastings, 8.3.2023](https://youtu.be/Jubfy-s9URI?si=cKOMb2mcHzBJdPIb)
+- [Open-iAPS with Magnus Reintz & Theresa Hastings: Starting Open-iAPS, 8.17.2023](https://youtu.be/9I1nuHbcUHo?si=wlRurW3Qh_60ss2d)
+- [Open-iAPS Q&A with Magnus Reintz, Tom Barrows, Jonas Hummelstrand & Theresa Hastings, 30 August 2023](https://youtu.be/Li3AKjSrdPw?si=WwLctkAGjVsbDLNs)
 
 
 
