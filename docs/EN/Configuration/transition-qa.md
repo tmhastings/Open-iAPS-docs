@@ -104,15 +104,12 @@ Loop is carb-centric. Many Loop users have been instructed to enter carbs, inclu
 
 The Open-iAPS algorithm does not consider future carbs. What does this mean? The algorithm considers many factors, adds guardrails, and then acts by setting a temporary basal, administering a bolus (SMB), or both. Future carbs are not considered. The algorithm does not care about any future carbs you might have entered.
 
-:::bg-primary
-Wait, what!? You have to consider carbs, right?\
-Why else would I add them?
-:::
+<i>Wait, what!? You have to consider carbs, right? Why else would I add them?</i>
+
 Open-iAPS considers carbs only once absorbed and part of Carbs On Board (COB).
 
-:::bg-primary
-So what's the mealtime strategy then?
-:::
+<i>So what's the mealtime strategy then?</i>
+
 ### Mealtime strategy
 
 Here's the recommendation:
