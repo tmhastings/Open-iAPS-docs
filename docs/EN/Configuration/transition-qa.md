@@ -36,7 +36,7 @@ Take some time to read the docs and fine-tune your settings. To get help from ot
 iOS Loop uses different algorithms, meaning it has a different approach than Open-iAPS. If you're coming from iOS Loop, you must change how you think. Please read that statement again three times, as it is crucial.
 
 <details>
-  <summary><b>Benefits of Loop</b></summary>
+  <summary><b><r>Benefits of Loop</r></b></summary>
 
 * A very clean, minimalistic user interface
 * A built-in onboarding guide
