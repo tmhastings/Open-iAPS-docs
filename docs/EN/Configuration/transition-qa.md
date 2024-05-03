@@ -36,7 +36,7 @@ Take some time to read the docs and fine-tune your settings. To get help from ot
 iOS Loop uses different algorithms, meaning it has a different approach than Open-iAPS. If you're coming from iOS Loop, you must change how you think. Please read that statement again three times, as it is crucial.
 
 <details>
-  <summary><b><r>Benefits of Loop</r></b></summary>
+  <summary><b>Benefits of Loop</b></summary>
 
 * A very clean, minimalistic user interface
 * A built-in onboarding guide
@@ -104,12 +104,14 @@ Loop is carb-centric. Many Loop users have been instructed to enter carbs, inclu
 
 The Open-iAPS algorithm does not consider future carbs. What does this mean? The algorithm considers many factors, adds guardrails, and then acts by setting a temporary basal, administering a bolus (SMB), or both. Future carbs are not considered. The algorithm does not care about any future carbs you might have entered.
 
-> Wait, what!? You have to consider carbs, right? Why else would I add them?
-
+:::bg-secondary
+Wait, what!? You have to consider carbs, right? Why else would I add them?
+:::
 Open-iAPS considers carbs only once absorbed and part of Carbs On Board (COB).
 
-> So what's the mealtime strategy then?
-
+:::bg-secondary
+So what's the mealtime strategy then?
+:::
 ### Mealtime strategy
 
 Here's the recommendation:
