@@ -43,7 +43,7 @@ iOS Loop uses different algorithms, meaning it has a different approach than Ope
 * Simple settings
 * A dedicated Loop Follow app for caregivers
 </details>
-
+<br>
 <details>
   <summary><b>Benefits of Open-iAPS</b></summary>
 
@@ -53,7 +53,7 @@ iOS Loop uses different algorithms, meaning it has a different approach than Ope
 * Highly customizable temporary profiles
 * Adaptive algorithm
 </details>
-
+<br>
 <details>
   <summary><b>Should I switch from Loop to Open-iAPS?</b></summary>
 If Loop works well for you, you should not switch to Open-iAPS.
@@ -64,6 +64,7 @@ If you find it difficult to understand how Loop works, Open-iAPS is even more co
 
 You should consider switching to Open-iAPS if you've been using Loop for a while and have issues that Loop can't solve even after tweaking and re-tweaking your settings and profile. 
 </details>
+<br>
 
 ### Common Reasons Users Switch from Loop and How Open-iAPS Addresses Them
 
@@ -71,26 +72,32 @@ You should consider switching to Open-iAPS if you've been using Loop for a while
   <summary><b>Incorrect or missing carb entries</b></summary>
 Open-iAPS has a feature called Unannounced Meals (UAM). With this option enabled and properly configured, Open-iAPS will react to rising BG by giving insulin through a Super Micro Bolus (SMB) even if no carbs are registered. UAM helps in two scenarios: forgetting to add carbs for a meal and entering carbs but not the correct amount.
 </details>
+<br>
 <details>
   <summary><b>Lots of manual corrections and "fake carbs"</b></summary>
 With UAM and SMB active and properly configured, Open-iAPS will make any necessary corrections. There is no need to add "fake carbs" to make Open-iAPS give insulin, as many Loop users are used to.
 </details>
+<br>
 <details>
   <summary><b>Persistent highs because of variations in insulin sensitivity (ISF) and insulin-to-carb ratio (CR)</b></summary>
 Many people with diabetes need more insulin as their BG rises. Because Loop uses constant, pre-set ISF and CR values; it cannot address the unexpected change in sensitivity. With dynamic ISF and dynamic CR enabled and properly configured, Open-iAPS will give enough insulin to lower those highs without user interaction. More aggressive settings might lead to a low. With less aggressive settings, it will take Open-iAPS some time to get BG back in range. The key is to find the effective balance between conservative and aggressive to meet your needs.
 </details>
+<br>
 <details>
   <summary><b>Recurring/rebound lows</b></summary>
 Properly configured, Open-iAPS will not give you insulin if you don't need it. A typical issue with Loop is that it stops delivering insulin when BG falls and then gives insulin from the "negative IOB" once BG starts rising again. For some users, this is too much insulin and leads to recurring lows. Properly configured, Open-iAPS will not overcompensate for the rapid BG rise after a low.
 </details>
+<br>
 <details>
   <summary><b>Difficulties dealing with exercise</b></summary>
 Exercise is good for everyone, including people with diabetes. People with insulin-dependent diabetes often struggle with lows during exercise and highs afterward. Open-iAPS has a built-in exercise mode that will reduce basal and ISF whenever you set a higher temporary BG target. Open-iAPS also has Profile Presets that can help you get the right amount of insulin during exercise. Profiles can also adjust CR, unlike temporary targets.
 </details>
+<br>
 <details>
   <summary><b>Frequent, consistent variations in profile (basal, ISF, CR)</b></summary>
 Illness, menstrual cycle, inactive days, active days, home office days, stressful events... In these situations, the overall insulin need differs from your usual need. Like Loop's Overrides, Open-iAPS has Profiles that can change basal rate, ISF, CR, and target BG within a pre-set timeframe. What Open-iAPS Profiles do that Loop Overrides do not do is provide the option to temporarily disable SMBs and apply adjustments to only basal, basal, and ISF, basal and CR, or all three.
 </details>
+<br>
 
 <b><i>If any of those sound familiar, consider a switch to Open-iAPS</b></i>
 
@@ -104,11 +111,11 @@ Loop is carb-centric. Many Loop users have been instructed to enter carbs, inclu
 
 The Open-iAPS algorithm does not consider future carbs. What does this mean? The algorithm considers many factors, adds guardrails, and then acts by setting a temporary basal, administering a bolus (SMB), or both. Future carbs are not considered. The algorithm does not care about any future carbs you might have entered.
 
-<i>Wait, what!? You have to consider carbs, right? Why else would I add them?</i>
+**Wait, what!? You have to consider carbs, right? Why else would I add them?**
 
-Open-iAPS considers carbs only once absorbed and part of Carbs On Board (COB).
+*Open-iAPS considers carbs only once absorbed and part of Carbs On Board (COB).*
 
-<i>So what's the mealtime strategy then?</i>
+**So what's the mealtime strategy then?**
 
 ### Mealtime strategy
 
@@ -122,18 +129,18 @@ Here's the recommendation:
 6. If Open-iAPS detects BG falling, a low/zero temporary basal will continue.
 7. If you think Open-iAPS is not giving enough or too much insulin, you should look at your settings, including MAX IOB and all SMB-related settings.
 
-> Does everyone do it like that?
+**Does everyone do it like that?**
 
-No. 
+*No.*
 
-> What are the alternatives?
+**What are the alternatives?**
 
-* Some Open-iAPS users don't bolus for meals. They wait for Open-iAPS to detect rising BG and let Open-iAPS handle it. This usually leads to a temporary high BG, but Open-iAPS will get you back to target with the correct settings. If you're OK with a temporary high, then go ahead and try to skip bolus. You can start with small meals and tune your settings. You will need aggressive settings to let Open-iAPS give enough insulin.
-* Some Open-iAPS users do a manual pre-bolus and skip entering carbs. Open-iAPS will predict a low BG until the meal kicks in and BG begins rising. If the pre-bolus is insufficient, Open-iAPS will give more insulin based on settings. Yes, even without entering any carbs. This approach will also result in a temporary high that is shorter than the completely unattended approach.
+- *Some Open-iAPS users don't bolus for meals. They wait for Open-iAPS to detect rising BG and let Open-iAPS handle it. This usually leads to a temporary high BG, but Open-iAPS will get you back to target with the correct settings. If you're OK with a temporary high, then go ahead and try to skip bolus. You can start with small meals and tune your settings. You will need aggressive settings to let Open-iAPS give enough insulin.*
+- *Some Open-iAPS users do a manual pre-bolus and skip entering carbs. Open-iAPS will predict a low BG until the meal kicks in and BG begins rising. If the pre-bolus is insufficient, Open-iAPS will give more insulin based on settings. Yes, even without entering any carbs. This approach will also result in a temporary high that is shorter than the completely unattended approach.*
 
-> What do most people do?
+**What do most people do?**
 
-Most Open-iAPS users take a bit of all these approaches. They have an apple without entering anything into the app. Then, they pre-bolus for lunch because it was high carb. Then, they use the calculator for dinner. This is all OK, and it comes down to the variation you accept for your BG. 
+*Most Open-iAPS users take a bit of all these approaches. They have an apple without entering anything into the app. Then, they pre-bolus for lunch because it was high carb. Then, they use the calculator for dinner. This is all OK, and it comes down to the variation you accept for your BG.*
 
 ## Coming from commercial closed-loop systems
 
