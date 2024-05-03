@@ -1,9 +1,7 @@
 # Transition from other closed-loop solutions
 
 ## Introduction
-If you've been using other closed-loop solutions, it's essential to understand the differences between the one you're used to and Open-iAPS.
-
-In this section of the documentation, we'll explain the differences from a user perspective.
+If you've been using other closed-loop solutions, it's essential to understand the differences between the one you're used to and Open-iAPS. In this section of the documentation, we'll explain the differences.
 
 
 ## Coming from AndroidAPS
@@ -32,6 +30,7 @@ meaning you can expect Open-iAPS to behave the same way AndroidAPS does generall
   
 Take some time to read the docs and fine-tune your settings. To get help from other users, join [Discord](https://discord.gg/dbe5Twav8D) or [Facebook](https://www.facebook.com/groups/1351938092206709/). Once your settings are in order, consider switching to Open-iAPS.
 </details>
+
 
 ## Coming from iOS Loop
 iOS Loop uses different algorithms, meaning it has a different approach than Open-iAPS. If you're coming from iOS Loop, you must change how you think. Please read that statement again three times, as it is crucial.
