@@ -157,7 +157,7 @@ Your settings will need to be entered manually, but all can be entered one-by-on
 <b>Import Settings With Nightscout</b>
  1. Connect Nightscout to your Trio app (If you've already connected your Nightscout site, skip to step 2)
     * Open the Settings Menu ⚙️ in the Trio app
-    * Tap `Nightscout` to open the Nightscout Menu
+    * Tap <img src="img/NightscoutMenu.png" width=“135px”> to open the Nightscout Menu
     * Tap `Connect >`
     * Enter your Nightscout URL and API Secret in the spaces provided
     * Press `Connect to Nightscout`
