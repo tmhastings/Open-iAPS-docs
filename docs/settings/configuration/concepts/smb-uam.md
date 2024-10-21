@@ -2,7 +2,7 @@
 !!! tip "Highlights"
 	- Enable SMB and UAM after ensuring accurate basal rates and ISF.
 	- Adjust SMB/UAM minutes to allow the system to give greater amounts of insulin with one bolus.
-	- Max IOB must be greater than 0 for it to function. _Suggested: average meal bolus + 3x max daily basal._
+	- Max IOB must be greater than 0 for it to function. _Suggested: average meal bolus + 3x highest hourly basal rate._
 
 ## Super Micro Boluses
 Super micro bolus (SMB) gives you small amounts of insulin upfront in the form of a bolus. Your temporary basal rates will be reduced accordingly before or after the SMB is delivered, so you will overall receive the same amount of insulin you would have received with temporary basal rates alone. SMB allows for faster control of blood sugars by providing more insulin upfront.
