@@ -99,20 +99,18 @@ There are several different app icon options built into Trio, but you can still 
    ```
 
 4. Insert a new line after line 14 in the file `FreeAPS/Sources/Models/Icons.swift` containing the following text: `case ivan = "ivan"`
-
-   Code before modification:
-   ```swift
-   ...
-      case loop = "trioLoop"
-      var id: String { rawValue }
-   }
-   ```
-
-   Code after modification:
-   ```swift
-   ...
-      case loop = "trioLoop"
-      case ivan = "ivan"
-      var id: String { rawValue }
-   }
-   ```
+     - Code **before** modification:  
+      ```swift
+      ...
+         case loop = "trioLoop"
+         var id: String { rawValue }
+      }
+      ```
+    - Code **after** modification:  
+    ```swift
+    ...
+       case loop = "trioLoop"
+       case ivan = "ivan"
+       var id: String { rawValue }
+    }
+    ```
