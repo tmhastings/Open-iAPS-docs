@@ -167,12 +167,12 @@ git push -u origin add_FAQ_page
   
 ## Tips & Tricks
 
-> [!NOTE] 
+> [!NOTE]
 > Please add!
 
 ### Add a Chapter
 
-Using the `#` sign shows a chapter on the menu/index. The amount of `#`'s determines the level. 
+Using the `#` sign shows a chapter on the menu/index. The amount of `#`'s determines the level.
 
 **Example**:
 
@@ -186,15 +186,16 @@ Using the `#` sign shows a chapter on the menu/index. The amount of `#`'s determ
 ### Link to Another File
 ```
 
-> [!TIP] 
+> [!TIP]
 > If you want to avoid a chapter ending up in the menu/index, use bold text by:
-> - either surrounding the text with 2-star signs `**` 
-> - or adding `<b>` before the text and `</b>` after the text (without spaces).  
-> 
-> Input              | Result        
-> ------------------ | ------------- 
-> `**bold text**`    | **bold text** 
->  `<b>bold text</b>` | **bold text** 
+>
+> - either surrounding the text with 2-star signs `**`
+> - or adding `<b>` before the text and `</b>` after the text (without spaces).
+>
+> | Input              | Result        |
+> | ------------------ | ------------- |
+> | `**bold text**`    | **bold text** |
+> | `<b>bold text</b>` | **bold text** |
 
 ### Link to Another File
 
