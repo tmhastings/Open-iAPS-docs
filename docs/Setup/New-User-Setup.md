@@ -33,7 +33,7 @@ The next step is to enter your main profile settings: Basal, ISF, CR, and Target
 
 !!! important "Important"
 
-    If you use mg/dL, you must first change the 'Glucose Units' before entering your profile settings.
+    If you use `mg/dL`, you must first change the 'Glucose Units' **before** entering your profile settings.
     
     This is found in the Trio Settings menu under 'Preferences'
 

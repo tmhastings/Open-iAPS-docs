@@ -207,4 +207,5 @@ nav:
       - Sensitivity Settings: ./settings/configuration/preferences/targetsettings.md
   - Resources:
       - Citations: ./resources/citations.md
+      - Translation: ./resources/translate.md
       - TrioDocs PDF: ./trio-docs.pdf

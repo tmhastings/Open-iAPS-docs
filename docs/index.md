@@ -2,7 +2,6 @@
     
     **PLEASE NOTE THIS DOCUMENTATION IS STILL BEING WRITTEN BY OUR AWESOME COMMUNITY. UNTIL IT IS FINISHED, PLEASE DO NOT SET UP YOUR TRIO BASED ON THIS DOCUMENTATION ALONE. CONTACT THE COMMUNITY ON DISCORD OR FACEBOOK TO MAKE SURE YOU GET IT RIGHT AND STAY SAFE**
 
-
 # What is Trio?
 
 ![Trio Logo](assets/images/trio-logo.png){ width="150", align="right" }
@@ -36,6 +35,7 @@ Upon installation, you will need to configure your settings appropriately. By de
 
 >In general, these are the first three settings you will want to configure as you gain confidence in the app and your settings:
 >
+
 >- Enable Closed Loop for automation
 >- Increase Max IOB to "average meal bolus + 3x max daily basal"
 >- Enable SMB and UAM for automatic bolusing (ensure your ISF is optimized before enabling this)
