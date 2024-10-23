@@ -9,14 +9,13 @@ CGM selection includes the following:
 * Dexcom G7/ONE+
 * Glucose Simulator
 * Libre Transmitter
-* Glucose Direct
 * Medtronic Enlite
 
 ## Nightscout
 While using Nightscout as a CGM is an option, it should be avoided if possible because it will not keep Trio running in the background like other CGM options. You will have to open Trio manually to make it run loop cycles.
 
 ## xDrip (xDrip4iOS)
-To use xDrip4iOS as a CGM source, you must build it yourself with the same Apple Developer account you used to build your Trio app. You cannot use Shuggah or a version distributed by someone else's TestFlight. Please see the following for instructions on how to build xDrip4iOS yourself: [link](../../operate/build.md#xdrip4ios-or-glucose-direct-as-cgm-source)
+To use xDrip4iOS as a CGM source, you must build it yourself with the same Apple Developer account you used to build your Trio app. You cannot use Shuggah or a version distributed by someone else's TestFlight. Please see the following for instructions on how to build xDrip4iOS yourself: [link](../../operate/build.md#xdrip4ios-as-cgm-source)
 
 However, if you are using Dexcom G6 or ONE with xDrip4iOS, you can choose the Dexcom G6 option in Trio rather than xDrip4iOS, and Trio will intercept the glucose readings even if you're using Shuggah or someone else's TestFlight of xDrip4iOS.
 
@@ -34,7 +33,7 @@ The Glucose Simulator adds artificial CGM readings to the screen so you can see 
     ***The Glucose Simulator should never be used in conjunction with a live pump connected to a person (or animal).***
 
 ## Libre Transmitter
-This option pairs a compatible Libre CGM directly with Trio without using a separate app like xDrip4iOS or Glucose Direct.
+This option pairs a compatible Libre CGM directly with Trio without using a separate app like xDrip4iOS.
 
 ### Supported Sensors
 * US Libre 1 10-day sensors *via Transmitters*
@@ -49,8 +48,5 @@ This option pairs a compatible Libre CGM directly with Trio without using a sepa
 * Libre H sensors
 * Libre 3
   
-## Glucose Direct
-Until the providers of Glucose Direct add a Trio App Group to Glucose Direct, you cannot use this app with Trio. If that happens, then you must build it yourself with the same Apple Developer account you used to build your Trio app. You cannot use a version distributed by someone else's TestFlight.
-
 ## Medtronic Enlite
 The Minimed Enlite CGM, available with the Medtronic 522/722, 523/723, and 554/754, wirelessly sends glucose readings to the pump. Trio can read the Medtronic CGM data directly from the pump using a RileyLink-compatible device.
