@@ -7,7 +7,7 @@ The first place to start if you want to learn more about the underlying algorith
 AndroidAPS implements the same OpenAPS algorithm with dynamic enhancements and maintains an [extensive documentation](https://androidaps.readthedocs.io/) for new users. Recommend if you have additional questions, you skim through its documentation for your answer.
 
 ## Loop Documentation
-Trio is a fork of Loop. While their underlying algorithms are different, they share some parts of their code base. Its recommended you take a quick glance in the [Loop Docs](https://loopkit.github.io/loopdocs/) for your issue, especially if it relates to pump usage and build errors. Many of these documents have been adapted from Loopdocs.
+Trio is not a fork of Loop. While their underlying algorithms are different, they share some parts of their code base. It is recommended that you take a quick glance in the [Loop Docs](https://loopkit.github.io/loopdocs/) for your issue, especially if it relates to pump usage and build errors. Many of these documents have been adapted from Loopdocs.
 
 ## Community Support (Free Support)
 There are many opportunities to find help with using Trio.
@@ -37,5 +37,5 @@ Many Healthcare Providers offer support in using DIY services. The following pro
 - [Loop Documentation](https://loopkit.github.io/loopdocs/)
 - [Loop Tips](https://loopkit.github.io/looptips/)
 - [OpenAPS Documentation](https://openaps.readthedocs.io/)
-- [AndroidAPS Documentation](https://androidaps.readthedocs.io/
+- [AndroidAPS Documentation](https://androidaps.readthedocs.io/)
 - Support groups on [Discord](https://discord.gg/FnwFEFUwXE) and [Facebook](https://www.facebook.com/groups/1351938092206709)
