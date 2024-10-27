@@ -214,7 +214,7 @@ If you need it, you are most likely to get help in one of these groups:
 
 If you want to use xDrip4iOS as a CGM source via “shared app group,” you must also build that app from a source with the same developer ID used for building Trio. Scripts are available for these apps as well. All scripts follow the same download and build pattern and configure automatic signing files for you.
 
-The download is placed in your `Downloads` folder in a directory called `BuildxDrip4iOS`, respectively. The downloaded clone is found in a folder with the branch name, date, and time encoded.
+The download is placed in your `Downloads` folder in a directory called `BuildxDrip4iOS. The downloaded clone is found in a folder with the branch name, date, and time encoded.
 
 These can be accessed using the [**TrioBuildSelectScript**](#build-trio-with-script) menu options mentioned above. Or you can run each script individually.
 
