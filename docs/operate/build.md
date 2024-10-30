@@ -179,7 +179,7 @@ The choices are:
 
 1. `Build Loop Follow`
 2. `Build xDrip4iOS`
-4. `Return to Menu`
+3. `Return to Menu`
 
 ### Run Maintenance Utilities
 
