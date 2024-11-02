@@ -478,8 +478,7 @@ You must be connected to the internet and must allow Xcode to connect to Apple t
 
 ### Consequences of `Trio App Group`
 
-If you use xDrip4iOS or GlucoseDirect as your CGM for Trio, they need to support the same `App Group` as Trio.
+If you use xDrip4iOS  as your CGM for Trio, it needs to support the same `App Group` as Trio.
 
-* xDrip4iOS requires version 5.3.1 or newer to support the `Trio App Group`
-* GlucoseDirect has not been updated, at this time, so does not currently work with Trio as a CGM source
+xDrip4iOS requires version 5.3.1 or newer to support the `Trio App Group`
 
