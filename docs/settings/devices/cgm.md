@@ -39,8 +39,8 @@ This option pairs a compatible Libre CGM directly with Trio without using a sepa
 * US Libre 1 10-day sensors *via Transmitters*
 * US Libre 1 14-day sensors *via Transmitters*
 * International Libre 1 sensors *via Transmitters*
-* European Libre 2 sensors *via Transmitters*
-* European Libre 2 sensors *directly via Bluetooth*
+* European Libre 2/2+ sensors *via Transmitters*
+* European Libre 2/2+ sensors *directly via Bluetooth*
 
 ### Unsupported sensors
 * Non-European Libre 2 sensors
