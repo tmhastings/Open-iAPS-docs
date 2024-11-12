@@ -19,7 +19,7 @@ To use xDrip4iOS as a CGM source, you must build it yourself with the same Apple
 
 However, if you are using Dexcom G6 or ONE with xDrip4iOS, you can choose the Dexcom G6 option in Trio rather than xDrip4iOS, and Trio will intercept the glucose readings even if you're using Shuggah or someone else's TestFlight of xDrip4iOS.
 
-## Dexcom G5 / G6 ONE
+## Dexcom G5 / G6 / ONE
 Trio can intercept glucose readings between the transmitter and the Dexcom app. If you are using a Dexcom G5, G6, or ONE sensor, tap Configuration CGM to enter your transmitter's 6-digit ID. Dexcom Share Credentials are not necessary. When switching transmitters, you must delete your current transmitter from Trio by tapping Configuration CGM, scrolling down, and Delete CGM. Once you do this, you can add the new transmitter with its Transmitter ID.
 
 ## Dexcom G7 / ONE+
